@@ -1,12 +1,15 @@
 {
-  "name": "feedback_app",
+  "name": "server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "engines": {
+    "node": "18.16.0",
+    "npm": "9.5.1"
   },
-  "keywords": [],
+  "scripts": {
+    "start": "node index.js"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
